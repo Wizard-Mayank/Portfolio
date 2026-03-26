@@ -1,18 +1,29 @@
-# React + Vite
+# 🚀 Mayank's Digital Universe 🌌
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the command center of **Mayank Pandey**, a B.Tech CSE (AIML) student at PSIT who codes faster than he drinks coffee.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🤖 Who am I?
+![Cyber Space](https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif)
+I'm a **Full Stack Developer** & **AIML Engineer** based in Uttar Pradesh, India. I spend my days teaching machines how to see and my nights convincing React components not to break. 
 
-## React Compiler
+* **Brain:** Specializing in DSA, AI, Machine Learning, and Computer Vision.
+* **Hands:** Architecting scalable MERN & Next.js applications.
+* **Status:** OK ✅
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 📈 Technical Evolution
+My journey from **C++ basics** to **Agentic AI & RAG**. I first learn the skill, then I make the machines do my bidding. 
 
-## Expanding the ESLint configuration
+![Hacker Coding](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+## 📬 Get In Touch
+Got a cool project or just want to discuss why Python is better than Java? 
+* **LinkedIn:** [Mayank Pandey](https://linkedin.com/in/pandeymayank369)
+* **Email:** [mayankit369@gmail.com](mailto:mayankit369@gmail.com)
+
+**Warning:** This portfolio is built with **React** and high-voltage **Cyan Glow**. Wear sunglasses. 😎

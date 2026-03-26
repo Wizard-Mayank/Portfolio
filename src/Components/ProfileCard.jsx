@@ -6,7 +6,7 @@ function ProfileCard() {
     <div className="h-screen w-[40vw] flex flex-col items-center justify-center">
       <div className="flex flex-col items-center justify-center rounded-4xl w-[65%] h-[88%] bg-[oklch(0.18_0.02_220.86)]">
         <img
-          className="w-70 rounded-2xl ring-1 ring-[oklch(0.81_0.13_221.95)]"
+          className="w-60 rounded-2xl ring-1 ring-[oklch(0.81_0.13_221.95)]"
           src="Mayank_Portfolio_Image.png"
           alt="Mayank's pic"
         />
@@ -24,11 +24,7 @@ function ProfileCard() {
             rel="noopener noreferrer"
             className="p-2 transition-colors duration-300 hover:bg-[oklch(0.81_0.13_221.95)] rounded-md"
           >
-            <img
-              className="w-7"
-              src="src/assets/linkedin.png"
-              alt="linkedin logo"
-            />
+            <img className="w-7" src="linkedin.png" alt="linkedin logo" />
           </a>
 
           <a
@@ -37,11 +33,7 @@ function ProfileCard() {
             rel="noopener noreferrer"
             className="p-2 transition-colors duration-300 hover:bg-[oklch(0.81_0.13_221.95)] rounded-md"
           >
-            <img
-              className="w-7"
-              src="src/assets/github.png"
-              alt="github logo"
-            />
+            <img className="w-7" src="github.png" alt="github logo" />
           </a>
 
           <a
@@ -50,7 +42,7 @@ function ProfileCard() {
             rel="noopener noreferrer"
             className="p-2 transition-colors duration-300 hover:bg-[oklch(0.81_0.13_221.95)] rounded-md"
           >
-            <img className="w-7" src="src/assets/mail.png" alt="gmail logo" />
+            <img className="w-7" src="mail.png" alt="gmail logo" />
           </a>
         </div>
 
