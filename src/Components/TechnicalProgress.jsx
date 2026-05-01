@@ -118,6 +118,13 @@ const updates = [
   },
 
   {
+    date: "May 2026",
+    title: "Task Manager",
+    desc: "Developed and deployed a MERN-based task management system featuring RBAC for secure access, live team analytics via a real-time dashboard, and a responsive UI for seamless cross-device performance.",
+    status: "completed",
+  },
+
+  {
     date: "Present",
     title: "Visual Verse",
     desc: "Implementing a scalable AI-powered photo management system using MERN, Flutter, and TensorFlow Lite.",
