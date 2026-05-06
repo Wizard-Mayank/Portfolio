@@ -125,10 +125,10 @@ const updates = [
   },
 
   {
-    date: "Present",
+    date: "May 2026",
     title: "Visual Verse",
-    desc: "Implementing a scalable AI-powered photo management system using MERN, Flutter, and TensorFlow Lite.",
-    status: "in-progress",
+    desc: "Implemented a scalable AI-powered photo management system using MERN, Flutter, and TensorFlow Lite.",
+    status: "completed",
   },
 ];
 
