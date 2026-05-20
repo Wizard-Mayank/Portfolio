@@ -5,6 +5,7 @@ import ProfileBio from "./ProfileBio";
 import Progress from "./Progress";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Skills from "./Skills";
 
 // Animation variants for a consistent "Fade & Slide Up" feel
 const pageVariants = {
@@ -25,6 +26,8 @@ function Wrapper(props) {
         return <Projects />;
       case "progress":
         return <Progress />;
+      case "skills":
+        return <Skills />;
       case "contact":
         return <Contact />;
       default:

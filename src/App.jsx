@@ -20,6 +20,7 @@ function App() {
           <Route path="/" element={<Wrapper />} />
           <Route path="/projects" element={<Wrapper page="projects" />} />
           <Route path="/progress" element={<Wrapper page="progress" />} />
+          <Route path="/skills" element={<Wrapper page="skills" />} />
           <Route path="/contact" element={<Wrapper page="contact" />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>

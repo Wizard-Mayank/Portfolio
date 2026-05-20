@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router";
 import styled from "styled-components";
 
-const Button = () => {
+const Navbar = () => {
   return (
     <StyledWrapper>
       <div className="nav">
@@ -10,23 +10,24 @@ const Button = () => {
           <Link to="/" className="btn">
             Home
           </Link>
-
           <Link to="/progress" className="btn">
             Progress
           </Link>
-
+          <Link to="/skills" className="btn">
+            Skills
+          </Link>
           <Link to="/projects" className="btn">
             Builds
           </Link>
-
           <Link to="/contact" className="btn">
             Chat
           </Link>
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 400 60"
+            viewBox="0 0 460 60"
             height={60}
-            width={400}
+            width={460}
             overflow="visible"
             className="outline"
           >
@@ -34,7 +35,7 @@ const Button = () => {
               strokeWidth={5}
               fill="transparent"
               height={60}
-              width={400}
+              width={460}
               y={0}
               x={0}
               pathLength={100}
@@ -63,14 +64,13 @@ const StyledWrapper = styled.div`
 
   .nav {
     position: relative;
-    width: 400px;
+    width: 460px; /* Increased from 400px to fit 5 items */
     height: 60px;
     border-radius: 40px;
   }
 
   .container:hover .outline .rect {
     transition: 999999s;
-    /* Must specify these values here as something *different* just so that the transition works properly */
     stroke-dashoffset: 1;
     stroke-dasharray: 0;
   }
@@ -87,10 +87,11 @@ const StyledWrapper = styled.div`
   }
 
   .btn {
-    padding: 0.5em 1.5em;
+    padding: 0.5em 1em; /* Reduced padding slightly to ensure fit */
     color: #fff;
     cursor: pointer;
     transition: 0.1s;
+    text-decoration: none;
   }
 
   .btn:hover {
@@ -99,6 +100,7 @@ const StyledWrapper = styled.div`
     border-radius: 10px;
   }
 
+  /* Updated SVG Stroke logic for 5 buttons */
   .btn:nth-child(1):hover ~ svg .rect {
     stroke-dashoffset: 0;
     stroke-dasharray: 0 2 8 73.3 8 10.7;
@@ -106,17 +108,22 @@ const StyledWrapper = styled.div`
 
   .btn:nth-child(2):hover ~ svg .rect {
     stroke-dashoffset: 0;
-    stroke-dasharray: 0 12.6 9.5 49.3 9.5 31.6;
+    stroke-dasharray: 0 16 9.5 50 9.5 20;
   }
 
   .btn:nth-child(3):hover ~ svg .rect {
     stroke-dashoffset: 0;
-    stroke-dasharray: 0 24.5 8.5 27.5 8.5 55.5;
+    stroke-dasharray: 0 31 8.5 35 8.5 25;
   }
 
   .btn:nth-child(4):hover ~ svg .rect {
     stroke-dashoffset: 0;
-    stroke-dasharray: 0 34.7 6.9 10.2 6.9 76;
+    stroke-dasharray: 0 45 7 20 7 30;
+  }
+
+  .btn:nth-child(5):hover ~ svg .rect {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 0 60 7 5 7 30;
   }
 
   .btn:hover ~ .outline .rect {
@@ -126,4 +133,4 @@ const StyledWrapper = styled.div`
   }
 `;
 
-export default Button;
+export default Navbar;
